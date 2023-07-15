@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./files/fonts/Roboto-Bold.ttf);
+    font-display: swap;
+}
+
+.bgd {
+    width: 99%;
+    height: 98vh;
+    min-width: 540px;
+    background-image: url(./files/assets/summer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    position: absolute;
+    filter: blur(2px);
+    z-index: -1;
+    transition: 1s;
+}
+
+.content {
+    width: 100%;
+    height: 98vh;
+    min-width: 540px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    color: rgb(255, 123, 0);
+    font-size: 55px;
+    font-family: 'Roboto';
+}
+
+.buttons {
+    width: 30vw;
+    height: 170px;
+    min-width: 520px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    width: 160px;
+    height: 160px;
+    min-width: 160px;
+    border: 1.5px solid lightgray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#summer {
+    background-image: url(./files/assets/summer-bg.jpg);
+    background-size: cover;    
+}
+
+#rainy {
+    background-image: url(./files/assets/rainy-bg.jpg);
+    background-size: cover;
+}
+
+#winter {
+    background-image: url(./files/assets/winter-bg.jpg);
+    background-size: cover;
+}
+
+#volume-control {
+    margin-top: 2rem;
+}
